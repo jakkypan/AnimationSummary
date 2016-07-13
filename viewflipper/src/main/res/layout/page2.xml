@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="boolean	 isAutoStart()
+Returns true if this view automatically calls startFlipping() when it becomes attached to a window.
+boolean	 isFlipping()
+Returns true if the child views are flipping.
+void	 onInitializeAccessibilityEvent(AccessibilityEvent event)
+Initializes an AccessibilityEvent with information about this View which is the event source.
+void	 onInitializeAccessibilityNodeInfo(AccessibilityNodeInfo info)
+Initializes an AccessibilityNodeInfo with information about this view.
+void	 setAutoStart(boolean autoStart)
+Set if this view automatically calls startFlipping() when it becomes attached to a window.
+void	 setFlipInterval(int milliseconds)
+How long to wait before flipping to the next view
+void	 startFlipping()
+Start a timer to cycle through child views
+void	 stopFlipping()
+No more flips" />
+
+</LinearLayout>

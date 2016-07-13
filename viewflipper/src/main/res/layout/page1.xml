@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple ViewAnimator that will animate between two or more views that have been added to it.
+        
+        
+         Only one child is shown at a time. If requested, can automatically flip between each child at a regular interval." />
+
+</LinearLayout>

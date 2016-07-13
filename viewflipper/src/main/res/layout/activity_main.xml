@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ViewFlipper
+        android:id="@+id/body_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000" >
+        
+         <include  
+            android:id="@+id/layout01"  
+            layout="@layout/page1" />  
+        <include  
+            android:id="@+id/layout02"  
+            layout="@layout/page2" />  
+        <include  
+            android:id="@+id/layout02"  
+            layout="@layout/page3" />  
+        <include  
+            android:id="@+id/layout02"  
+            layout="@layout/page4" />  
+        
+    </ViewFlipper>
+
+</RelativeLayout>

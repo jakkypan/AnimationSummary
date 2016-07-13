@@ -1,0 +1,1 @@
+include ':app', ':cardflipanimation', ':propertyanimation', ':sugaredlistanimations', ':viewflipper', ':shimmer'
